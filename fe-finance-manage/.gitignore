@@ -1,0 +1,9 @@
+node_modules
+src/pages/.umi
+.idea
+.temp
+.history/
+/yarn-error.log
+dist/
+.DS_Store
+package-lock.json

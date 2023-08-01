@@ -1,0 +1,31 @@
+.login {
+  padding: 32px 0 24px 0;
+  height: 100vh;
+  overflow: auto;
+  background: #f0f2f5;
+  background-image: url(https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg);
+  background-repeat: no-repeat;
+  background-position: center 110px;
+  background-size: 100%;
+  .title {
+    text-align: center;
+    top: 2px;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+    font-size: 33px;
+    margin-bottom: 52px;
+    font-family: Avenir, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  }
+  .container {
+    margin: 0 auto;
+    width: 388px;
+    .site-form-item-icon {
+      color: rgba(0, 0, 0, 0.25);
+      font-size: 14px;
+    }
+    input {
+      padding: 3px 0;
+      font-size: 16px;
+    }
+  }
+}

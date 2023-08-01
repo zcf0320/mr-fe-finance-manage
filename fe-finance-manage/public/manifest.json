@@ -1,0 +1,9 @@
+{
+  "short_name": "OMS管理后台",
+  "name": "OMS管理后台",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

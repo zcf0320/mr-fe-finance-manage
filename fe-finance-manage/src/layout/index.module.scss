@@ -1,0 +1,27 @@
+.container {
+  height: 100vh;
+  overflow: hidden;
+  .sider {
+    height: 100vh;
+    :global(.ant-menu-root) {
+      height: calc(100vh - 65px);
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+  }
+  .content {
+    overflow: hidden;
+    background-color: #f0f2f5;
+    margin: 16px;
+    .box {
+      width: calc(100% + 16px);
+      height: calc(100%);
+      overflow-y: scroll;
+    }
+    .wrap {
+      padding: 16px;
+      height: 100%;
+      min-height: 100%;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export const CACHE_USER_INFO = 'CACHE_USER_INFO'; //设置用户信息

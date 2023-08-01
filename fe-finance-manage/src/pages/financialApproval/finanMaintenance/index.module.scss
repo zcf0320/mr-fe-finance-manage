@@ -1,0 +1,149 @@
+.box {
+    width: 100%;
+    height: 100%;
+    background: #F0F1F5;
+    border-radius: 4px;
+}
+
+.proTableSearch {
+    width: 100%;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.proTableHead {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.proTables {
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+
+    .searchBtn {
+        width: 40px;
+        min-width: 80px;
+        height: 35px;
+        background: #1890FF;
+        border-radius: 2px;
+        font-family: PingFangSC-Regular;
+        font-weight: Regular;
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+    }
+
+    .reset {
+        width: 40px;
+        min-width: 80px;
+        height: 35px;
+        border: 1px solid #DAD9D8;
+        border-radius: 2px;
+        font-family: PingFangSC-Regular;
+        font-weight: Regular;
+        font-size: 18px;
+        color: #262626;
+        letter-spacing: 0;
+    }
+
+}
+
+.card {
+    width: 100%;
+    height: 190%;
+    border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    margin-top: 30px;
+    font-family: PingFangSC-Medium;
+    font-weight: medium;
+    font-size: 22px;
+    color: #262626;
+    letter-spacing: 0;
+    background: #FFFFFF;
+
+}
+
+
+
+.mixing {
+    width: 100%;
+    height: 92px;
+    // padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.align {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.table {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.card b {
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+Table {
+    height: 100px,
+}
+
+.pagination {
+    margin-top: 20px;
+    float: right;
+}
+
+.dll {
+    display: flex;
+}
+
+.ant-modal-body .dll span {
+    margin-left: 50px;
+}
+
+.but {
+    margin-left: 11px;
+    margin-top: -20px;
+}
+
+.tab {
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.divider {
+    border-color: #999;
+    margin: 10px 0 20px 0;
+}
+
+.formButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formButtonItem {
+    padding: 15px 40px;
+    font-size: 18px;
+    line-height: 0;
+}
